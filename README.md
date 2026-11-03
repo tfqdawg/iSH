@@ -1,11 +1,19 @@
 ## <p align="center"> iSH Config </p>
 
-#### symlinking configs
+#### 1.0 Setup
+
+After installing iSH Shell,
+
+1. Update system
+2. Clone Repository
+3. Symlink configs to target destination.
+
+#### symlink configs
 ```bash
 ln -s ~/path_to_real_file ~/link_path
 ```
 
-#### To source chennel changes
+#### 2.0 Sourcing channel changes
 1. update
 ```bash
 apk update
@@ -19,7 +27,7 @@ apk upgrade --available --update-cache
 apk fix
 ```
 
-#### To do
+#### 3.0 To do
 
 - [ ] setup instructions
 - [ ] symlink script
